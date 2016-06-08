@@ -1,0 +1,56 @@
+Why do people feel so intensely about their position on GMOs?
+
+p1 What I learned from six months of GMO research: None of it matters
+
+p2 By Nathanael Johnson on 9 Jan 2014
+
+p3 About a third of the way through this series on GMOs, after a particularly angry conflagration broke out on Twitter, I asked my wife, Beth, if I could tell her what had happened. I was hoping to exorcise those digital voices from my head. Someone had probably accused me of crimes against humanity, shoddy journalism, and stealing teddy bears from children - I forget the details, thank goodness. But I remember Beth's response.
+
+p4 "No offense," she said, "but who cares?"
+
+p5 It's a little awkward to admit this, after devoting so much time to this project, but I think Beth was right. The most astonishing thing about the vicious public brawl over GMOs is that the stakes are so low.
+
+p6 I know that to those embroiled in the controversy this will seem preposterous. Let me try to explain.
+
+p7 Let's start off with a thought experiment: Imagine two alternate futures, one in which genetically modified food has been utterly banned, and another in which all resistance to genetic engineering has ceased. In other words, imagine what would happen if either side "won" the debate.
+
+p8 In the GMO-free future, farming still looks pretty much the same. Without insect-resistant crops, farmers spray more broad-spectrum insecticides, which do some collateral damage to surrounding food webs. Without herbicide-resistant crops, farmers spray less glyphosate, which slows the spread of glyphosate-resistant weeds and perhaps leads to healthier soil biota. Farmers also till their fields more often, which kills soil biota, and releases a lot more greenhouse gases. The banning of GMOs hasn't led to a transformation of agriculture because GM seed was never a linchpin supporting the conventional food system: Farmers could always do fine without it. Eaters no longer worry about the small potential threat of GMO health hazards, but they are subject to new risks: GMOs were neither the first, nor have they been the last, agricultural innovation, and each of these technologies comes with its own potential hazards. Plant scientists will have increased their use of mutagenesis and epigenetic manipulation, perhaps. We no longer have biotech patents, but we still have traditional seed-breeding patents. Life goes on.
+
+p9 In the other alternate future, where the pro-GMO side wins, we see less insecticide, more herbicide, and less tillage. In this world, with regulations lifted, a surge of small business and garage-biotechnologists got to work on creative solutions for the problems of agriculture. Perhaps these tinkerers would come up with some fresh ideas to usher out the era of petroleum-dependent food. But the odds are low, I think, that any of their inventions would prove transformative. Genetic engineering is just one tool in the tinkerer's belt. Newer tools are already available, and scientists continue to make breakthroughs with traditional breeding. So in this future, a few more genetically engineered plants and animals get their chance to compete. Some make the world a little better, while others cause unexpected problems. But the science has moved beyond basic genetic engineering, and most of the risks and benefits of progress are coming from other technologies. Life goes on.
+
+p10 The point is that even if you win, the payoff is relatively small in the broad scheme of things. Really, why do so many people care?
+
+p11 All or nothing
+
+p12 The anthropologist Glenn Davis Stone has pointed out that each side of the debate has agreed to talk about GMOs as if "GMOs" are a single entity up for approval or rejection. This makes zero sense. Pro-GMO partisans, for example, often lump all the different GM plants together as a universal good that we must accept if we want to avoid starvation. The logic here is Malthusian: We are outgrowing our food supply, and the productivity gains of the Green Revolution are falling off, so we need something to save us. That thing, according to this line of thought, is genetic engineering. Set aside the problems with the Malthusian argument for a moment. We still have to ask: What type of GMOs? Are we talking about rice engineered to feed the poor in Indonesia, or soy engineered to feed pigs in a country suffering from calorie surpluses? Those two plants don't belong in the same argument.
+
+p13 Anti-GMO partisans also frequently treat GMOs as a monolithic entity, and that's not any more logical. If you care about the environment it would make sense to support the responsible use of insect-resistant GMOs to help farmers move beyond chemical agriculture. It's hard to argue with scientists like Bruce Tabashnik when they present evidence that insect-resistant plants have helped the environment in the places they've been used fastidiously. Thoughtful greens might, at the same time, oppose herbicide-tolerant GMOs until we can figure out a better solution than just spraying more. Again, the different forms of GMOs don't belong in the same argument.
+
+p14 But in the past, greens - including me - have intuitively opposed all GMOs. Because those insect-resistant crops are part of an industrial complex that we dislike, it's hard to get excited about the fact that they reduce insecticide applications. We oppose GMOs because we oppose the unsustainable agricultural system they serve.
+
+p15 I soured to this argument after realizing that it shares the same reasoning used by those opposed to contraception and sex ed. The argument supposes that you can throttle back an institution you dislike (monoculture, premarital sex) by denying it the technologies that reduce its risks (Bt corn, condoms). But, just as teens are going to keep having sex, our unsustainable food system is going to keep on chugging along whether we allow the use of mitigating technology or not. I think it makes sense to support the GMO uses that give us small environmental improvements. Insisting on abstinence-only farming is a non-starter.
+
+p16 If GMOs aren't a monolithic entity, the stakes in this fight fall even further. It's harder to get worked up about an issue when it's a mixed bag of good and bad.
+
+p17 But people do get worked up
+
+p18 I could tell there was something unusual about the GMO controversy by the responses to the first pieces I wrote. People with an indefatigable passion for the subject picked apart, and exhaustively debated, every point. Initially I'd expected to read every comment and help moderate, but that went out the window as the threads regularly swelled to over 200 comments. The group GM Watch ginned up menacing pictures of me surrounded by clouds of evil darkness. Sources I'd interviewed critiqued my pieces stridently, and sometimes publicly. All of this was weird, and trying, but it was also exhilarating. Nothing else I've written, in more than a decade of working as a journalist, has generated this mixture of fascination and hostility.
+To be fair, I do generate clouds of brimstone.
+
+p19 I spent hours on end emailing with peeved sources, trying to identify the root of their frustration so I could make a correction or amend my position in a later post. And, while my learn-as-I-go experiment certainly led to mistakes and oversights (followed by corrections, of course), much of the time these people weren't taking issue with the facts I'd presented. What seemed to bother them was my failure to interpret the evidence in a way that fit into a larger narrative.
+
+p20 GMOs = Afghanistan in the 1980s
+
+p21 If the stakes are so low, why do people care so much? I think it has something to do with the role GMOs play in the stories we tell ourselves about agriculture in the modern world. When Dan Charles was researching his (terrific) book, Lords of the Harvest, he bumped up against some of the same quandaries I encountered, and concluded that the importance of these narratives was tantamount.
+
+p22 "The dispute over genetic engineering involves facts, to be sure," he wrote. "But its parties disagree far more passionately over the story. They quarrel over the nature of the characters, the plot, and over the editing. They also feud over the unknowable: the ending."
+
+p23 The debate isn't about actual genetically modified organisms - if it was we'd be debating the individual plants, not GMOs as a whole - it's about the stories we've attached to them. Both sides have agreed that this thing, this rhetorical construct we call GMOs, will be used to talk about something bigger. It's the setting for a proxy war, like the one in Afghanistan during the 1980s. In that case, people paid attention to the conflict because it was a stand-in for the Cold War. But few people actually cared about the details of Afghan politics - though those details turned out to be crucially important on Sept. 11, 2001.
+
+p24 Similarly, people care about GMOs because they symbolize corporate control of the food system, or unsustainable agriculture, or the basic unhealthiness of our modern diet. On the other side, people care about GMOs because they symbolize the victory of human ingenuity over hunger and suffering, or the triumph of market forces, or the wonder of science. These larger stories are so compelling that they often obscure the ground truth.
+
+p25 Beneath all this is a fundamental disagreement about technology. At one end you have the Ivan Illich position, which suggests our innovations are hurting more then helping us. At the other end are the technological utopians who see restraints on innovation as intolerably prolonging the suffering that would end in a more perfect future. Hardly anyone sits at these extremes, but most of us have an inclination to err on the side of humility or audacity. This is a hugely important discussion, but it's hard to talk about in the abstract, so we attach it to the example we have at hand: GMOs. The reason it's so hard to see the facts here is that the actual genetically modified organisms have been crowded out by the things they represent. This is a problem.
+
+p26 I'm not opposed to using GMOs as a metaphor to discuss our technological hubris (or prowess) - I just want us to be explicit about it. We should notice when the metaphor begins to diverge from the ground truth. The facts on the ground, in turn, can help us adjust our thinking on the larger issue.
+
+p27 We need metaphors - they're how we come to understand the world. But they grow sterile and useless without a continual exchange between the abstract and the incarnate, between meaning and reality. They become, in fact, cliches - words we repeat without thinking. Which, sadly, is where too much of the conversation about GMOs remains stuck today.

@@ -1,0 +1,8 @@
+//Ethan Clark
+//CISC220-022L
+//Lab 2, problem 3
+
+The output is:
+0x28fedc
+0x28fedc
+0x28fedc

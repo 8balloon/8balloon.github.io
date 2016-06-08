@@ -1,0 +1,32 @@
+Ethan Clark
+CISC220
+Lab; Friday 2:30
+
+1.a. Optimal array size: 41
+
+1.b.
+	I. n % 41
+	II. ((n * n) / (sqrt(n * 17))) % 41
+
+1.c.
+	the hash function tht was given for this lab had the most collisions.
+	The one with the fewest collisions was the one written in 1.b.II.
+
+1.d.
+	see hashFunctions.cpp
+
+2.a.	
+	0 0 0 757 671 353 410 904 93 560 502 38 818 3 671 0 0 0 0 0 0 0 0 0 0 0 490 577 0 
+	Collisions with linear probing: 36
+
+2.b.
+	0 0 0 757 671 353 904 93 3 560 502 818 0 0 38 0 0 0 410 0 0 0 0 0 0 0 490 577 0 
+	Collisions with quadratic probing: 17
+
+2.c.
+	0 0 904 93 3 410 502 671 0 560 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 577 0 0 
+	Collisions with  double hashing: 14
+	(there were some overwrites due to collisions.)
+
+2.d.
+	see probingHash.cpp

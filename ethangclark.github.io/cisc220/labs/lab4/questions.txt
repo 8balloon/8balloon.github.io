@@ -1,0 +1,10 @@
+Ethan Clark
+
+1) The size of the list is going to be changing unpredictably, and values are going to be added and removed from different parts of the list. It's much easier to be able to change the contents of the list without copying it and making a new on in this situation.
+
+2)
+	A)
+		This would be more efficient because you wouldn't have to iterate through elements which you knew were not of that priority as you searched for it.
+	B) The LL would not have a "last" property; it would only have a pointer to the "current" node on the list
+	C) The 1/3 of the list whose priorities would be updated would be the 1/3 after the "current" pointer, not the "first" 1/3 of the list because a circular linked list has no beginning.
+	D) If the priority instance isn't present, the search function would fall into an infinite loop. You could solve this problem by saving the pointer to the first node checked for priority and then checking each subsequent node's pointer to see if it's the same. If you run into the same pointer again without finding the priority, then you would have to break the loop or else your program would freeze.

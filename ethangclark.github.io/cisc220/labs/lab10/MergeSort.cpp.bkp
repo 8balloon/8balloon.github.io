@@ -1,0 +1,139 @@
+#include <string>
+#include "MergeSort.hpp"
+#include <iostream>
+
+using namespace std;
+
+void Merge(string *fromA, int startA, int stopA, string *fromB, int startB, int stopB, string *toC, int startC) {
+	int idxA = startA;
+	int idxB = startB;
+	int idxC = startC;
+	while ((idxA < stopA) && (idxB < stopB)) {
+		if (fromA[idxA] < fromB[idxB]) {
+			toC[idxC] = fromA[idxA];
+			idxA++;
+		}
+		else {
+			toC[idxC] = fromB[idxB];
+			idxB++;
+		}
+		idxC++;
+	}
+	while (idxA < stopA) {
+		toC[idxC] = fromA[idxA];
+		idxA++;
+		idxC++;
+	}
+	while (idxB < stopB) {
+		toC[idxC] = fromB[idxB];
+		idxB++;
+		idxC++;
+	}
+}
+
+void MergeSort(string *arr, int length) {
+	//this variable denotes whether the current "completed" iteration of merge is in the original array.
+	//If false, the values are in the new array "newArr"
+	string newArr[length];
+	bool currIterIsInOrig = true;
+	int currListLen = 1;
+	bool oddFullList = false;
+	int lenLastList = 0;
+
+	while (currListLen < length) {
+		cout << "CurrListLen: " << currListLen << endl;
+		for (int i = 0; i < length / (2 * currListLen); i++) {
+			if (currIterIsInOrig) {
+				Merge(
+					arr, 2*i*currListLen, (2*i+1)*currListLen,
+					arr, (2*i+1)*currListLen, (2*i+2)*currListLen,
+					newArr, 2*i*currListLen
+				);
+			}
+			else {
+				Merge(
+					newArr, 2*i*currListLen, (2*i+1)*currListLen,
+					newArr, (2*i+1)*currListLen, (2*i+2)*currListLen,
+					arr, 2*i*currListLen
+				);
+			}
+		}
+		
+		if ((length / currListLen) % 2) oddFullList = true;
+		lenLastList = length % currListLen;
+		if (currIterIsInOrig) {
+			if (oddFullList ) {
+				Merge(
+					arr, currListLen * (length / currListLen - 1), currListLen * (length / currListLen),
+					arr, currListLen * (length / currListLen), length,
+					newArr, currListLen * (length / currListLen - 1)
+				);
+			}
+			else {
+				Merge(
+					arr, currListLen * (length / currListLen), length,
+					arr, length, length,
+					newArr, currListLen * (length / currListLen)
+				);
+			}
+		}
+		else {
+			if (oddFullList ) {
+				Merge(
+					newArr, currListLen * (length / currListLen - 1), currListLen * (length / currListLen),
+					newArr, currListLen * (length / currListLen), length,
+					arr, currListLen * (length / currListLen - 1)
+				);
+			}
+			else {
+				Merge(
+					newArr, currListLen * (length / currListLen), length,
+					newArr, length, length,
+					arr, currListLen * (length / currListLen)
+				);
+			}
+		}
+		
+		currIterIsInOrig = currIterIsInOrig ? true : false;
+		currListLen *= 2;
+	}
+
+	if (currIterIsInOrig) return;
+	else {
+		for (int i = 0; i < length; i++) {
+			arr[i] = newArr[i];
+		}
+	}
+}
+
+int main() {
+	string test[] = {"My", "dog", "has", "fleas", "and", "chairman", "meow"};
+	int testLength = 7;
+	string test2[] = {"Hello", "abb", "break", "darling"};
+	int test2Length = 4;
+	for (int i = 0; i < testLength; i++) {
+		cout << test[i] << " ";
+	}
+	cout << endl;
+	for (int i = 0; i < test2Length; i++) {
+		cout << test2[i] << " ";
+	}
+	cout << endl;
+
+	string test3[testLength + test2Length];
+	Merge(test, 0, testLength, test2, 0, test2Length, test3, 0);
+	for (int i = 0; i < testLength + test2Length; i++) {
+		cout << test3[i] << " ";
+	}
+	cout << endl;
+
+	string retest[] = {"My", "dog", "has", "fleas", "and", "chairman", "meow"};
+	MergeSort(test, testLength);
+	for (int i = 0; i < testLength; i++) {
+		cout << test[i] << " ";
+	}
+	cout << endl;
+	
+
+	return 0;
+}

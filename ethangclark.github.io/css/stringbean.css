@@ -1,0 +1,83 @@
+body {
+	background-color: #555555;
+	//border: 0px;
+	//text-align: center;
+}
+
+#navbar {
+	background-color: #666666;
+	width: 480px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	//-moz-box-shadow: 0px 0px 3px  #444444;
+	//-webkit-box-shadow: 0px 0px 3px #444444;
+	box-shadow: 0px 0px 3px #444444;
+	border-radius: 3px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	color: white;
+}
+
+#controls {
+	background-color: #666666;
+	width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+	//box-shadow: 1px 1px #444444;
+	box-shadow: 0px 0px 3px #444444;
+	border-radius: 3px;
+}
+
+#shrink {
+	width: 48px;
+}
+
+#mainInput {
+	margin: 2%;
+	width: 96%;
+	height: 100px;
+}
+
+canvas {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+#multiplicityInputGroup {
+	//display: inline;
+	padding: 10px;
+}
+
+.multiplicityBox {
+	padding: 10px;
+	margin: 5px;
+	border-radius: 20px;
+	//border-top-left-radius: 10px;
+	//background-color: rgba(200,200,200,1);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#onesBox {
+	background-color: rgba(200,200,200,1);
+}
+
+#onesWidth {
+	width: 48px;
+}
+
+#twosBox {
+	background-color: rgba(255,100,100,1);
+}
+
+#threesBox {
+	background-color: rgba(100,220,100,1);
+}
+
+#foursBox {
+	background-color: rgba(100,100,255,1);
+}
+

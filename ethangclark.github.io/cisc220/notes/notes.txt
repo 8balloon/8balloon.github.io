@@ -1,0 +1,19 @@
+If the size of something is determined when the program is run -> use the heap
+	--necessary for "dynamic allocation"
+
+Complete tree: full to the leaves.
+Filled left to right.
+
+Delete root of heap:
+	Put bottom right node at root:
+	Bubble it down, pulling up "more important" of the children
+		(req.s 2 comparisons per)
+
+to find kth smallest element in list:
+	make heap with k elements
+	iterate through list
+		if element is smaller than root:
+		replace root with element
+			bubble down
+		when done iterating:
+			root will be kth smallest element

@@ -1,0 +1,62 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		title StringBean: Analytical Art
+		link(href="../css/bootstrap.min.css" type="text/css" rel="stylesheet")
+		link(href="../css/stringbean.css" type="text/css" rel="stylesheet")
+	body
+		script(src="../js/jquery-2.1.3.min.js")
+		script(src="../js/stringrender.js")
+		#navbar
+			h1 StringBean
+			h4 Paste a bunch of text and hit "draw."
+			p StringBean makes patterns based off of repeated words.
+		canvas#c
+		#controls
+			textarea#mainInput paste a bunch of text
+			br
+			input#submit(type="submit" value="Draw")
+			//input#reset(type="submit" name="reset" value="Reset")
+			input#shrink(value="0" style="display: none;")
+			label(for="shrink" style="display: none;") Shrink
+			br
+			#multiplicityInputGroup(style="display: none;")
+				#onesBox.multiplicityBox
+					//#onesBoxContent
+					label(for="ones") 1
+					input#ones(type="checkbox" checked="checked")
+					input#onesColor(value="rgba(255, 255, 255, 0.01)")
+					input#onesWidth(value="16")
+					label(for="onesWidth") width
+				#twosBox.multiplicityBox
+					label(for="twos") 2
+					input#twos(type="checkbox" checked="checked")
+					input#twosColor(value="rgba(255, 0, 0, 0.15)")
+					input#twosStroke(type="checkbox" checked="checked")
+					label(for="twosStroke") stroke
+				#threesBox.multiplicityBox
+					label(for="threes") 3
+					input#threes(type="checkbox" checked="checked")
+					input#threesColor(value="rgba(0, 255, 0, 0.04)")
+					input#threesStroke(type="checkbox" checked="checked")
+					label(for="threesStroke") stroke
+				#foursBox.multiplicityBox
+					label(for="fours") 4	
+					input#fours(type="checkbox" checked="checked")
+					input#foursColor(value="rgba(0, 0, 255, 0.08)")
+					input#foursStroke(type="checkbox")
+					label(for="foursStroke") stroke
+			//
+				#widthHeightInputGroup 
+					input#widthInput.widthHeightInput(type="text")
+					label(for="widthInput") width
+					input#heightInput.widthHeightInput(type="text")
+					label(for="heightInput") height
+			//
+				#directionInputGroup
+					input#horizontalDirection(type="radio" name="direction" value="horizontal" checked="checked")
+					span horizontal
+					input#verticalDirection(type="radio" name="direction" value="vertical")
+					span vertical
+

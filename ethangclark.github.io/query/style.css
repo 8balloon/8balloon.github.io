@@ -1,0 +1,52 @@
+
+canvas {
+    background-color: #666666;
+}
+
+body {
+    text-align: center;
+    background-color: #999999;
+}
+
+#titleBar {
+  text-align: left;
+  background-color: #00ff00;
+  font-family: Gill Sans Extrabold, sans-serif;
+  font-size: 44px;
+}
+
+.titlePad {
+  height: 100px;
+  background-color: #ddddff;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+.query {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: #cccccc;
+}
+
+.option {
+  text-align: left;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: #66ff66;
+  //border: 3px solid white;
+}
+
+
+#world {
+	background-color: green;
+	width:300px;
+	height:300px;
+	margin-left:40%;
+	margin-right:40%;
+	border-radius:150px;
+}
+

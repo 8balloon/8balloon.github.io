@@ -1,0 +1,125 @@
+#include "lab3lottery.hpp"
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+
+using namespace std;
+
+Owner *makeOwner() {
+	
+	//makes new owner, assigns its .numStores,
+	//gives it pointer to new array of Stores
+	Owner *owner = new Owner;
+	//////////////////////////owner->numStores = rand() % 10 + 1;
+	owner->numStores = 2;
+	owner->stores = new Store[owner->numStores];
+
+	//populates owner's Store array with actual stores
+	for (int i = 0; i < owner->numStores; i++) {
+		makeStore(owner->stores + i);
+	}
+
+	return owner;
+}
+
+Store *makeStore(Store *store) {
+
+	//sets the storeId to random number between 1 and 100
+	store->storeId = rand() % 100 + 1;
+
+	//creates list of customers of random length (customers)
+	/////////////////////int numCustomers = rand() % 10 + 1;
+	int numCustomers = 3;
+	store->numCust = numCustomers;
+	//Customer customers[numCustomers];
+	store->customers = new Customer[numCustomers];
+	//cout << "NUMCUSTOMERS: " << numCustomers << endl;
+	for (int i = 0; i < numCustomers; i++) {
+		makeCustomer(store->customers + i);
+	}
+
+	store->numSold = 0;
+	for (int i = 0; i < numCustomers; i++) {
+		store->numSold += store->customers[i].numTickets;
+	}
+	
+	return store;
+}
+
+Customer *makeCustomer(Customer *customer) {
+	customer = new Customer;
+	customer->numTickets = rand() % 20 + 1;
+	cout << "NUMTICKETS OK" << endl;
+	
+	int tickets[customer->numTickets][3];
+	for (int i = 0; i < customer->numTickets; i++) {
+		getWinners(tickets[i]);
+	}
+
+	customer->lotteryNums = new int *[customer->numTickets];
+	for (int i = 0; i < customer->numTickets; i++) {
+		customer->lotteryNums[i] = new int [3];
+	}
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < customer->numTickets; j++) {
+			customer->lotteryNums[i][j] = tickets[i][j];
+		}
+		cout << endl;
+	}
+
+	customer->customerId = rand() % 1000 + 1;
+	return customer;
+}
+
+void getWinners(int *winners) {
+	for (int i = 0; i < 3; i++) {
+		winners[i] = rand() % 10 - i;
+	}
+	while (winners[1] == winners[0]) {
+		winners[1] = rand() % 10;
+	}
+	while (winners[2] == winners[0]) {
+		winners[2] = rand() % 10;
+	}
+}
+
+int checkWin(int *nums, int *winners) {
+	int matches = 0;
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 3; j++) {
+			if (nums[i] == winners[j]) {
+				matches++;
+				break;
+			}
+		}
+	}
+	return matches;
+}
+
+void findWinners(Owner *owner, int *ls) {
+	//where ls is list of winning numbers (3 long)
+	//prints out total winning tickets
+	//...and winning numbers
+	//...and ID of each store, followed by by winning ticket and # of #s matched
+	//Prints out amount won for each store.
+
+}
+
+
+int main() {
+	srand(time(NULL));
+
+	Customer *customer;
+	cout << "CUST POINTER MADE" << endl;
+	makeCustomer(customer);
+	cout << "customerId: " << customer->customerId << endl;
+	cout << "numTickets: " << customer->numTickets << endl;
+	cout << "lotteryNums: " << endl;
+	for (int i = 0; i < customer->numTickets; i++) {
+		for (int j = 0; j < 3; j++) {
+			cout << customer->lotteryNums[i][j] << "   ";
+		}
+		cout << endl;
+	}
+	return 0;
+}

@@ -1,0 +1,47 @@
+CLAIM
+
+1. A software application comprising:
+  a. A means of communication between interested parties with the expressed purpose of exchanging food.
+  b. A categorization of food types
+  c. A user system, wherein every user of the application has a unique profile.
+  d. A system by which users may discover the profiles of other users by culinary interests.
+  e. A system by which users may discover the culinary offerings of other users based off of their physical location.
+  f. A system by which users may rate the culinary offerings of other users, both generally and on a per-item basis.
+  g. A group system, wherein users may create and be a part of groups of their choosing
+  h. A calendar system, whereby users can denote their availability for the exchange of food.
+  i. A forum wherein users can discuss obtaining and preparing food.
+2.
+  a. The invention of 1.a. further comprising:
+    i. A user-user private chat mechanism
+    ii. A multi-user private chat mechanism
+    iii. A public chat mechanism
+    iv. A heirarchical geographical chat mechanism
+  b. The invention of 1.b. further comprising:
+    i. A heirarchical, geographically-based, dynamic food classification schema.
+    ii. A heirarchical, ethnically-based dynamic food classification schema.
+    iii. A heirarchical, biologically-based dynamic food classification schema.
+  c. The invention of 1.c. further comprising:
+    i. A profile picture.
+    ii. A profile video.
+    iii. A rough geoegraphical description of the user's whereabouts
+    iv. A menu specific to the culinary or non-culinary items the user wishes to exchange
+    v. A history of culinary exchanges the user has performed with other users.
+    vi. A commentary history showing reviews left by other users of said user's items of exchange.
+    vii. A rating reflecting the number of unreciprocated meals given by the user (i.e., "karma")
+  d. The invention of 1.d. further comprising:
+    i. A heirarchical, geographically-based finding service whereby the user may find other users in their area.
+    ii. A heirarchical, ethnically-based finding service whereby the user may find other users that are interested in similar ethnic foods.
+    iii. Integration of 2.d.ii with the geographical finding service; namely, a system by which a user may view foods of a particular ethnicity in a particular geographical area.
+    iv. A service whereby users may view foods provided by others classified by rating, popularity, geography, or ethnicity.
+  e.
+  f. The invention of 1.f. further comprising:
+    i. A system whereby users may comment on the culinary offerings of other users
+    ii. A system whereby comments by users who are confirmed to have participated in a culinary exchange are noted as such.
+  g. The invention of 1.g. further comprising:
+    i. Public, invite-only, and secret group creation.
+    ii. Event-specific groups.
+    iii. A system whereby users may invite other users to groups
+  h. The invention of 1.h. further comprising:
+    i. A denotation of the culinary-providing or culinary-necessitating capacity of the user, both remaining and absolute.
+    ii. A denotaiton of the geographic area where the user would be available for the exchange of food.
+  i.

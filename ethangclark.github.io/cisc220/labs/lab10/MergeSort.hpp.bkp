@@ -1,0 +1,9 @@
+#ifndef MERGESORT_HPP_
+#define MERGESORT_HPP_
+
+#include <string>
+
+void Merge(std::string *fromA, std::string *fromB, int lenA, int lenB, std::string *toC);
+void MergeSort(std::string *arr, int length);
+
+#endif

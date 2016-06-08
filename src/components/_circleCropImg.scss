@@ -1,0 +1,28 @@
+$previewBoxHeight: 13rem;
+$cCropImgMargin: 2rem;
+$cCropImgSide: $previewBoxHeight - $cCropImgMargin * 2;
+$cCropBorderRadius: $cCropImgSide / 2;
+
+.previewBox {
+  position: relative;
+  height: $previewBoxHeight;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.circleCropImgWrapper {
+  position: relative;
+  height: $cCropImgSide;
+  width: $cCropImgSide;
+  margin: $cCropImgMargin;
+  border-radius: $cCropBorderRadius;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.circleCropImg {
+  display: inline-block;
+}
