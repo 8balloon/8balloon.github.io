@@ -1,6 +1,6 @@
-$previewBoxHeight: 13rem;
-$cCropImgMargin: 2rem;
-$cCropImgSide: $previewBoxHeight - $cCropImgMargin * 2;
+$previewBoxHeight: 16rem;
+$cCropImgMargin: 1rem;
+$cCropImgSide: $previewBoxHeight / 1.5 - $cCropImgMargin * 2;
 $cCropBorderRadius: $cCropImgSide / 2;
 
 .previewBox {
