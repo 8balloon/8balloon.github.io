@@ -30,7 +30,7 @@ export default (props) => {
       </div>
       <div className="previewBox">
         <PreviewBoxItem
-            href="http://8balloon.com/"
+            href="http://8balloon.com/cunig/demo"
             src="cunigDemoScreenshot.PNG">
           3d-gravity game demo
         </PreviewBoxItem>
