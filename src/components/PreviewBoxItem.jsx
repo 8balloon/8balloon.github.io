@@ -3,11 +3,11 @@ import CircleCropImg from './CircleCropImg'
 
 export default (props) => {
   return (
-    <div className="previewBoxItem">
+    <a className="previewBoxItem" href={props.href}>
       <CircleCropImg src={props.src} />
       <div>
         {props.children}
       </div>
-    </div>
+    </a>
   )
 }

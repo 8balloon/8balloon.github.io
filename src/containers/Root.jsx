@@ -17,19 +17,27 @@ export default (props) => {
         </div>
       </div>
       <div className="previewBox">
-        <PreviewBoxItem src="stringBeanDemoScreenshot.PNG">
-          fpoo
+        <PreviewBoxItem
+            href="Ethan_Clark_resume_2016_g_public.pdf"
+            src="resumeScreenshot.PNG">
+          resume
         </PreviewBoxItem>
-        <PreviewBoxItem src="picqDemoScreenshot.PNG">
-          fpoo
+        <PreviewBoxItem
+            href="http://8balloon.com/picq/demo"
+            src="picqDemoScreenshot.PNG">
+          advertising app demo
         </PreviewBoxItem>
       </div>
       <div className="previewBox">
-        <PreviewBoxItem src="resumeScreenshot.PNG">
-          fpoo
+        <PreviewBoxItem
+            href="http://8balloon.com/"
+            src="cunigDemoScreenshot.PNG">
+          3d-gravity game demo
         </PreviewBoxItem>
-        <PreviewBoxItem src="cunigDemoScreenshot.PNG">
-          fpoo
+        <PreviewBoxItem
+            href="https://8balloon.github.io/college/stringbean"
+            src="stringBeanDemoScreenshot.PNG">
+          (old) word art demo
         </PreviewBoxItem>
       </div>
     </div>
